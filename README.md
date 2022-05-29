@@ -102,7 +102,7 @@ Majority of columns contain NaN values, and the data require cleansing.
 |   3. models.ipynb
 |   4. deployment.ipynb
 ├── presentation
-|   ├── projectsummy.pptx
+|   ├── UsedCarDataMLSummary.pptx
 
 </pre>
 
