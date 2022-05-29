@@ -45,7 +45,7 @@
     ('white', 'blue', 'red', 'black', 'silver', 'grey', 'brown', 'yellow', 'orange', 'green', 'custom', 'purple')
 
 Majority of columns contain NaN values and the data require cleansing.
-
+<pre>
 - id              426880
 - region          426880
 - price           426880
@@ -64,10 +64,14 @@ Majority of columns contain NaN values and the data require cleansing.
 - type            334022
 - paint_color     296677
 - state           426880
+<pre>
 
 ## Team collaboration - directory structure
-#### Broze = raw data, silver = pre-processed data, gold = curated data
-
+<pre>
+- Broze = raw data
+- silver = pre-processed data
+- gold = curated data
+</pre>
 #### Instructions
 
 - Get the raw data from here - https://mo-pcco.s3.us-east-1.amazonaws.com/BH-PCMLAI/module_11/practical_application_II_starter.zip
@@ -101,17 +105,17 @@ Majority of columns contain NaN values and the data require cleansing.
 </pre>
 
 ## Data Preparation and Visulalization
-
+<pre>
 Input: vehicles_raw.csv
 Output: vehicles_silver.csv
 Code Used: Python
 Packages: Pandas, Numpy, Matplotlib, Seaborn
-
+</pre>
 ## Data Cleansing
-
+<pre>
 Input: vehicles_silver.csv
 Output: vehicles_gold.csv
-
+</pre>
 - IterativeImputer
 - Estimators (BayesianRidge, DecisionTreeRegressor, ExtraTreesRegressor, KNeighborsRegressor)
 - cross_val_score of calculated MSE
@@ -130,7 +134,7 @@ Output: vehicles_gold.csv
 - train_test_split (Train = 90% - Test = 10%)
 
 ## Data Modeling
-
+<pre>
 Input: vehicles_gold.csv
 Output: Model
 
@@ -142,7 +146,7 @@ Output: Model
 - 6)Bagging Regression
 - 7)Adaboost Regression
 - 8)XGBoost Regression
-
+</pre>
 
 ## Model Deployment
 
