@@ -151,10 +151,20 @@ Output: Model
 - 8) XGBoost Regression
 </pre>
 
-## Model Deployment
+## Evaluation
 
 - Give the following input criteria - predict the price of the best used vehicle
 - paint_color, manufacturer, year, transmission, cylinders, size, fuel, condition, drive, type, odometer
+
+## Model Deployment plan
+
+- The resultant model can be deployed as a docker container and orchestrated on Kubernetes cluster
+- The advantage of this approach is - we can orchestrate different versions of the models in different Kubernetes PODS 
+- It also acts as a solutiona accelerator for other used car dealer and hence the solution becomes repeatable
+
+## Presentation
+
+- A Powerpoint presentation is included to explain the entire process in "Presentation" directory.
 
 ## Process Summary
 
