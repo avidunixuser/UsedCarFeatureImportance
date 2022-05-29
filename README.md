@@ -64,14 +64,16 @@ Majority of columns contain NaN values and the data require cleansing.
 - type            334022
 - paint_color     296677
 - state           426880
-<pre>
+</pre>
 
 ## Team collaboration - directory structure
+
 <pre>
 - Broze = raw data
 - silver = pre-processed data
 - gold = curated data
 </pre>
+
 #### Instructions
 
 - Get the raw data from here - https://mo-pcco.s3.us-east-1.amazonaws.com/BH-PCMLAI/module_11/practical_application_II_starter.zip
