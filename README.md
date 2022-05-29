@@ -175,8 +175,6 @@ Output: Model
 <center>
     <img src = "images/ScoreTable.png" alt="centered image" width = 100%/>
 </center>
-
-<br></br>
 <center>
     <img src = "images/Overall-Performance.jpg" alt="centered image" width = 100%/>
 </center>
