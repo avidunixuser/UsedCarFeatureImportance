@@ -8,7 +8,7 @@
 - This process provides a framework for working through a data problem.  Your first step in this application will be to read through a brief overview of CRISP-DM
 
 <center>
-    <img src = images/crisp.png width = 100%/>
+    <img src = images/crisp.png width = 80%/>
 </center>
 
 ### Business Understanding
@@ -73,7 +73,7 @@ Majority of columns contain NaN values and the data require cleansing.
 - Get the raw data from here - https://mo-pcco.s3.us-east-1.amazonaws.com/BH-PCMLAI/module_11/practical_application_II_starter.zip
 - Unzip the data into data/bronze folder
 - Please run the notebooks in sequence
-- The pre-processing step (data-preprocessing.ipynb) will create progressively create two more data files in 'data/silver' and 'data/gold' folder
+- The pre-processing step (data-preprocessing.ipynb) will progressively create two more data files in 'data/silver' and 'data/gold' folder
 - At the end of the step 3 (after the execution of model.ipynb), there will be 3 model pkl files.
 
 <pre>
@@ -152,7 +152,7 @@ Output: Model
 ## Process Summary
 
 <center>
-    <img src = images/crisp_tabular.png width = 100%/>
+    <img src = images/crisp_tabular.png width = 80%/>
 </center>
 
 - By performing different ML models, we aimed to get a better result or less error with max accuracy. 
@@ -166,12 +166,12 @@ Output: Model
 - We deployed Random Forest and XGBoost in production.
 
 <center>
-    <img src = "images/ScoreTable.png" width = 100%/>
+    <img src = "images/ScoreTable.png" width = 80%/>
 </center>
 
 <br></br>
 <center>
-    <img src = "images/Overall-Performance.jpg" width = 100%/>
+    <img src = "images/Overall-Performance.jpg" width = 80%/>
 </center>
 
 
