@@ -8,7 +8,7 @@
 - This process provides a framework for working through a data problem.  Your first step in this application will be to read through a brief overview of CRISP-DM
 
 <center>
-    <img src = images/crisp.png width = 50%/>
+    <img src = "images/crisp.png" alt="centered image" width = 40%/>
 </center>
 
 ### Business Understanding
@@ -158,7 +158,7 @@ Output: Model
 ## Process Summary
 
 <center>
-    <img src = images/crisp_tabular.png width = 50%/>
+    <img src = "images/crisp_tabular.png" alt="centered image" width = 50%/>
 </center>
 
 - By performing different ML models, we aimed to get a better result or less error with max accuracy. 
@@ -172,10 +172,10 @@ Output: Model
 - We deployed Random Forest and XGBoost in production.
 
 <center>
-    <img src = "images/ScoreTable.png" width = 80%/>
+    <img src = "images/ScoreTable.png" alt="centered image" width = 80%/>
 </center>
 
 <br></br>
 <center>
-    <img src = "images/Overall-Performance.jpg" width = 80%/>
+    <img src = "images/Overall-Performance.jpg" alt="centered image" width = 80%/>
 </center>
