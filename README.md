@@ -4,7 +4,7 @@
 
 ### CRISP-DM Framework
 
-- To frame the task, throughout our practical applications we will refer back to a standard process in industry for data projects called CRISP-DM.  
+- To frame the task, throughout our practical applications we will refer to a standard process in industry for data projects called CRISP-DM.  
 - This process provides a framework for working through a data problem.  Your first step in this application will be to read through a brief overview of CRISP-DM
 
 <center>
@@ -19,32 +19,32 @@
 
 ### Data Understanding
 
-- The data spans across 10-yrs - from 1900 -2022
-- Also the prices range of all the vehicle is approximately bet - $1500-$39k with some outlier to be eliminated.
+- The data spans across 10-yrs - from 1995 -2022
+- Also, the prices range of all the vehicles is approximately bet ~ $8k-$39k with some outlier to be eliminated.
 - The data has vehicles from all 51 states in the US and 404 distinct regions
-- There are total 42 unique manufacturers in the data
-- There are total 29629 unique car models in the data
+- There are a total of 42 unique manufacturers in the data
+- There are a total of 29629 unique car models in the data
 - The condition of the vehicle is classified in 6 unique categories 
     ('good', 'excellent', 'fair', 'like new', 'new', 'salvage')
-- There are total 8 unique cylinder types listed in the data 
+- There are a total of 8 unique cylinder types listed in the data 
     ('8 cylinders', '6 cylinders', '4 cylinders', '5 cylinders', 'other', '3 cylinders', '10 cylinders', '12 cylinders')
-- There are total 5 unique fuel attributes listed in the data 
+- There are a total of 5 unique fuel attributes listed in the data 
     ('gas', 'other', 'diesel', 'hybrid', 'electric')
-- There are total 5 unique title status listed in the data 
+- There are a total of 5 unique title statuses listed in the data 
     ('clean', 'rebuilt', 'lien', 'salvage', 'missing', 'parts only')
-- There are total 3 unique types of transmission listed in the data 
+- There are a total of 3 unique types of transmission listed in the data 
     ('other', 'automatic', 'manual')
-- There are total 265838 unique VINs (Vehicle Identification Numbers) listed in the data
-- There are total 3 unique dive-types are listed in the data 
+- There are a total of 265838 unique VINs (Vehicle Identification Numbers) listed in the data
+- There are a total of 3 unique dive-types are listed in the data 
     ('rwd', '4wd', 'fwd')
-- There are total 4 unique vehicle sizes listed in the data 
+- There are a total of 4 unique vehicle sizes listed in the data 
     ('full-size', 'mid-size', 'compact', 'sub-compact')
-- There are total 13 unique vehicle types listed in the data 
+- There are a total of 13 unique vehicle types listed in the data 
     ('pickup', 'truck', 'other', 'coupe', 'SUV', 'hatchback', 'mini-van','sedan', 'offroad', 'bus', 'van', 'convertible', 'wagon')
-- There are total 12 unique paint colors listed in the data 
+- There are a total of 12 unique paint colors listed in the data 
     ('white', 'blue', 'red', 'black', 'silver', 'grey', 'brown', 'yellow', 'orange', 'green', 'custom', 'purple')
 
-Majority of columns contain NaN values and the data require cleansing.
+Majority of columns contain NaN values, and the data require cleansing.
 <pre>
 - id              426880
 - region          426880
@@ -80,7 +80,7 @@ Majority of columns contain NaN values and the data require cleansing.
 - Unzip the data into data/bronze folder
 - Please run the notebooks in sequence
 - The pre-processing step (data-preprocessing.ipynb) will progressively create two more data files in 'data/silver' and 'data/gold' folder
-- At the end of the step 3 (after the execution of model.ipynb), there will be 3 model pkl files.
+- At the end of step 3 (after the execution of model.ipynb), there will be 3 model pkl files.
 
 <pre>
 
@@ -106,7 +106,7 @@ Majority of columns contain NaN values and the data require cleansing.
 
 </pre>
 
-## Data Preparation and Visulalization
+## Data Preparation and Visualization
 <pre>
 Input: vehicles_raw.csv
 Output: vehicles_silver.csv
@@ -121,7 +121,7 @@ Output: vehicles_gold.csv
 - IterativeImputer
 - Estimators (BayesianRidge, DecisionTreeRegressor, ExtraTreesRegressor, KNeighborsRegressor)
 - cross_val_score of calculated MSE
-- Ratioalization of # of rows and column expected
+- Rationalization of # of rows and column expected
 
 #### Result
 - Shape before process= (426880, 18)
@@ -130,7 +130,7 @@ Output: vehicles_gold.csv
 
 ## Data Processing
 
-- LabelEncoding of catagorical variables to tranfrom into numerical values
+- Label Encoding of categorical variables to transform into numerical values
 - The dataset is not normally distributed
 - sklearn library (MinMaxScaler)
 - train_test_split (Train = 90% - Test = 10%)
@@ -168,7 +168,7 @@ Output: Model
 - Next, the data visualization features were explored deeply and the correlation between the features is examined.
 - Subsequently, ML models are implemented to predict the price of car.
 
-- From the table below, Random Forest, AdaBoost, and XGBoost are the best model for the prediction of the used car prices. 
+- From the table below, Random Forest, AdaBoost, and XGBoost are the best models for the prediction of the used car prices. 
 - We deployed Random Forest and XGBoost in production.
 
 <center>
@@ -179,5 +179,3 @@ Output: Model
 <center>
     <img src = "images/Overall-Performance.jpg" width = 80%/>
 </center>
-
-
