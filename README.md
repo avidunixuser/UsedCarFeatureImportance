@@ -182,9 +182,14 @@ Output: Model
 - From the table below, Random Forest, AdaBoost, and XGBoost are the best models for the prediction of the used car prices. 
 - We deployed Random Forest and XGBoost in production.
 
+## Score Table of all the models
+
 <center>
     <img src = "images/ScoreTable.png" alt="centered image" width = 100%/>
 </center>
+
+## Visual Representation
+
 <center>
     <img src = "images/Overall-Performance.jpg" alt="centered image" width = 100%/>
 </center>
