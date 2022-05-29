@@ -70,7 +70,7 @@ Majority of columns contain NaN values, and the data require cleansing.
 ## Team collaboration - directory structure
 
 <pre>
-- Broze = raw data
+- bronze = raw data
 - silver = pre-processed data
 - gold = curated data
 </pre>
