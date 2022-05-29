@@ -19,7 +19,7 @@
 
 ### Data Understanding
 
-- The data spans across 10-yrs - from 1995 -2022
+- The data spans across ~27-yrs - from 1995 -2022
 - Also, the prices range of all the vehicles is approximately bet ~ $8k-$39k with some outlier to be eliminated.
 - The data has vehicles from all 51 states in the US and 404 distinct regions
 - There are a total of 42 unique manufacturers in the data
