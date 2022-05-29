@@ -9,7 +9,7 @@
 - Your first step in this application will be to read through a brief overview of CRISP-DM <a href="https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining#:~:text=CRISPDM%20breaks%20the%20process%20of%20data%20mining%20into,Data%20Preparation%204%20Modeling%205%20Evaluation%206%20Deployment">here</a>
 
 <center>
-    <img src = "images/crispdm.png" align="centered image" width = 35%/>
+    <img src = "images/crispdm.png" align="centered image" width = 100%/>
 </center>
 
 ### Business Understanding
