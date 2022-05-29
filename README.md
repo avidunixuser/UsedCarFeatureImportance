@@ -140,14 +140,14 @@ Output: vehicles_gold.csv
 Input: vehicles_gold.csv
 Output: Model
 
-- 1)Linear Regression
-- 2)Ridge Regression
-- 3)Lasso Regression
-- 4)K-Neighbors Regression
-- 5)Random Forest Regression
-- 6)Bagging Regression
-- 7)Adaboost Regression
-- 8)XGBoost Regression
+- 1) Linear Regression
+- 2) Ridge Regression
+- 3) Lasso Regression
+- 4) K-Neighbors Regression
+- 5) Random Forest Regression
+- 6) Bagging Regression
+- 7) Adaboost Regression
+- 8) XGBoost Regression
 </pre>
 
 ## Model Deployment
