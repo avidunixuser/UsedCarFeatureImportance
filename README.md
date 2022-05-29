@@ -159,7 +159,7 @@ Output: Model
 ## Process Summary
 
 <center>
-    <img src = "images/crisp_tabular.png" alt="centered image" width = 50%/>
+    <img src = "images/crisp_tabular.png" alt="centered image" width = 100%/>
 </center>
 
 - By performing different ML models, we aimed to get a better result or less error with max accuracy. 
@@ -173,10 +173,10 @@ Output: Model
 - We deployed Random Forest and XGBoost in production.
 
 <center>
-    <img src = "images/ScoreTable.png" alt="centered image" width = 80%/>
+    <img src = "images/ScoreTable.png" alt="centered image" width = 100%/>
 </center>
 
 <br></br>
 <center>
-    <img src = "images/Overall-Performance.jpg" alt="centered image" width = 80%/>
+    <img src = "images/Overall-Performance.jpg" alt="centered image" width = 100%/>
 </center>
