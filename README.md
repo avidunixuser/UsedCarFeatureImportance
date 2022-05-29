@@ -13,7 +13,7 @@
 
 ### Business Understanding
 
-- In this application, we will explore a dataset that contains information on 3 million used cars. 
+- In this application, we will explore a dataset that contains information on 426880 used cars. 
 - Our goal is to understand what factors make a car more or less expensive. 
 - As a result of this analysis, you should provide clear recommendations to your client -- a used car dealership -- as to what consumers value in a used car.
 
