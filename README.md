@@ -5,10 +5,11 @@
 ### CRISP-DM Framework
 
 - To frame the task, throughout our practical applications we will refer to a standard process in industry for data projects called CRISP-DM.  
-- This process provides a framework for working through a data problem.  Your first step in this application will be to read through a brief overview of CRISP-DM
+- This process provides a framework for working through a data problem.  
+- Your first step in this application will be to read through a brief overview of CRISP-DM <a href="https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining#:~:text=CRISPDM%20breaks%20the%20process%20of%20data%20mining%20into,Data%20Preparation%204%20Modeling%205%20Evaluation%206%20Deployment">here</a>
 
 <center>
-    <img src = "images/crisp.png" alt="centered image" width = 40%/>
+    <img src = "images/crispdm.png" align="centered image" width = 35%/>
 </center>
 
 ### Business Understanding
@@ -76,7 +77,7 @@ Majority of columns contain NaN values, and the data require cleansing.
 
 #### Instructions
 
-- Get the raw data from here - https://mo-pcco.s3.us-east-1.amazonaws.com/BH-PCMLAI/module_11/practical_application_II_starter.zip
+- Get the raw data from - <a href="https://mo-pcco.s3.us-east-1.amazonaws.com/BH-PCMLAI/module_11/practical_application_II_starter.zip">here</a>
 - Unzip the data into data/bronze folder
 - Please run the notebooks in sequence
 - The pre-processing step (data-preprocessing.ipynb) will progressively create two more data files in 'data/silver' and 'data/gold' folder
