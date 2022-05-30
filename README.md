@@ -45,7 +45,9 @@
 - There are a total of 12 unique paint colors listed in the data 
     ('white', 'blue', 'red', 'black', 'silver', 'grey', 'brown', 'yellow', 'orange', 'green', 'custom', 'purple')
 
-Majority of columns contain NULL values(NaN in data science terms), and the data require significant cleansing.
+- Majority of the columns except (id, region, price, and state) contained NULL values (NaN in data science terms)
+- The data required significant cleansing as well as inferring the NULL values through Imputation
+
 <pre>
 - id              426880
 - region          426880
@@ -127,11 +129,12 @@ Packages: Pandas, Numpy, Matplotlib, Seaborn
 <pre>
 Input: vehicles_silver.csv
 Output: vehicles_gold.csv
-</pre>
+
 - IterativeImputer
 - Estimators (BayesianRidge, DecisionTreeRegressor, ExtraTreesRegressor, KNeighborsRegressor)
 - cross_val_score of calculated MSE
 - Rationalization of # of rows and column expected
+</pre>
 
 #### Result
 
@@ -151,6 +154,7 @@ Output: vehicles_gold.csv
 </pre>
 
 ## Data Modeling
+
 <pre>
 Input: vehicles_gold.csv
 Output: Model
@@ -192,15 +196,13 @@ Output: Model
     <img src = "images/crisp_tabular.png" alt="centered image" width = 100%/>
 </center>
 
-- By performing different ML models, we aimed to get a better result or less error with max accuracy. 
-- Our purpose was to predict the price of the used cars having multiple predictors and 364420 data entries.
-
-- Initially, data cleaning was performed to remove the null values and outliers from the dataset.
-- Next, the data visualization features were explored deeply and the correlation between the features is examined.
-- Subsequently, ML models are implemented to predict the price of car.
-
+- By performing different Machine Learning models, we aimed to get a better result or less error with max accuracy. 
+- Our purpose was to predict the price of the used cars with the help of multiple predictors for 364420 unique samples.
+- Initially, data cleaning was performed to remove the null values (NaN) and outliers from the dataset.
+- Next, the data visualization features were explored deeply to examine the correlation between the features.
+- Subsequently, Machine Learning models were implemented to predict feature importance and the price of car for a given customer preference.
 - From the table below, Random Forest, AdaBoost, and XGBoost are the best models for the prediction of the used car prices. 
-- We deployed Random Forest and XGBoost in production.
+- We chose 2 out of 3 best models and deployed Random Forest and XGBoost in production.
 
 ## Score Table - all models
 
