@@ -135,7 +135,7 @@ Output: vehicles_gold.csv
 - cross_val_score of calculated MSE
 - Rationalization of # of rows and column expected
 
-##### Rationalized Data points
+Rationalized Data points
 
 - Shape before process = (426880, 18)
 - Shape After process = (364420, 16)
