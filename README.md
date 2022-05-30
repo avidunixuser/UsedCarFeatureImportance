@@ -81,7 +81,7 @@
 
 - Get the raw data from - <a href="https://mo-pcco.s3.us-east-1.amazonaws.com/BH-PCMLAI/module_11/practical_application_II_starter.zip">here</a>
 - Unzip the data into data/bronze folder and rename the file as "vehicles_raw.csv" for the notebooks to execute without any exceptions
-- Please run the notebooks in eact 1-4 sequence
+- Please run the notebooks in exact sequence (1-4)
 - The pre-processing step (data-preprocessing.ipynb) will progressively create two more data files in "data/silver" and "data/gold" folders
 - At the end of step 3 (after the execution of model.ipynb), there will be 3 model .pkl files create in "models" folder
 - We'll also notice "errors.csv" created in "data/gold" folder which contains the scores produced by the all the models (refer - score table below)
