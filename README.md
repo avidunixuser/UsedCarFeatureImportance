@@ -134,13 +134,11 @@ Output: vehicles_gold.csv
 - Estimators (BayesianRidge, DecisionTreeRegressor, ExtraTreesRegressor, KNeighborsRegressor)
 - cross_val_score of calculated MSE
 - Rationalization of # of rows and column expected
-</pre>
 
-#### Result
+##### Rationalized Data points
 
-<pre>
-- Shape before process= (426880, 18)
-- Shape After process= (364420, 16)
+- Shape before process = (426880, 18)
+- Shape After process = (364420, 16)
 - Total 62460 rows and 2 columns were removed
 </pre>
 
