@@ -176,7 +176,7 @@ Output: Model
 - paint_color, manufacturer, year, transmission, cylinders, size, fuel, condition, drive, type, odometer
 </pre>
 
-## Model Deployment plan
+## Model Deployment plan (Aspirations, not in current scope)
 
 <pre>
 - The resultant model can be deployed as a docker container and orchestrated on Kubernetes cluster
