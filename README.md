@@ -211,13 +211,13 @@ Output: Model
 ## Feature Importance - 1) AdaBoost 2) RandomForest 3) XGBoost
 
 <center>
-    <img src = "images/Adaboost-Features-Importance2.jpg" alt="centered image" width = 25%/>
+    <img src = "images/Adaboost-Features-Importance2.jpg" alt="centered image" width = 50%/>
 </center>
 <center>
-    <img src = "images/Random-Forest-Variables-Importances.jpg" alt="centered image" width = 25%/>
+    <img src = "images/Random-Forest-Variables-Importances.jpg" alt="centered image" width = 50%/>
 </center>
 <center>
-    <img src = "images/XGBoost-Features-Importance.jpg" alt="centered image" width = 25%/>
+    <img src = "images/XGBoost-Features-Importance.jpg" alt="centered image" width = 50%/>
 </center>
 
 ## Top 3 Feature importance based on high R2 score of top 3 models is as follows -
@@ -226,11 +226,12 @@ Output: Model
 - Random Forest - Year, Cylinder, Odometer
 - XGBoot - Odometer, Model, Year
 
-## Conclusion and next steps
+## Conclusion, REcommendation, and next steps
 
 - In this analysis we tried to understand what influences used car's selling price. 
-- Based on the R2 score - all 3 models suggested "Year" and "Odometer" are the 2 features contributes most to the model.
+- Based on the R2 score - all 3 models suggest "Year" and "Odometer" are the most features that contributes most to the model.
 - The dealership should focus on these two features to maximize the profit.
 - Older cars with low Odometer yield better value for money for the customers.
+- Effectively, focusing on these two features is a win-win situation for both - the dealership and the customers.
 
 
