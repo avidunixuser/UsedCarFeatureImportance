@@ -229,7 +229,7 @@ Output: Model
 ## Conclusion, Recommendation, and Next Steps
 
 - In this analysis we tried to understand what influences used car's selling price. 
-- Based on the R2 score - all 3 models suggest "Year" and "Odometer" are the most features that contributes most to the model.
+- Based on the R2 score - all 3 models suggest "Year" and "Odometer" are the most important features that contributes to the model.
 - The dealership should focus on these two features for their marketing campaign to maximize the sell and profit.
 - Older cars with low Odometer yield better value for money for the customers.
 - Effectively, focusing on these two features is a win-win situation for both - the dealership and the customers.
