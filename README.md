@@ -205,7 +205,7 @@ Output: Model
 ## Score Table - all models
 
 <center>
-    <img src = "images/Overall-Performance.jpg.png" alt="centered image" width = 100%/>
+    <img src = "images/Overall-Performance.jpg" alt="centered image" width = 100%/>
 </center>
 
 ## Feature Importance - 1) AdaBoost 2) RandomForest 3) XGBoost
