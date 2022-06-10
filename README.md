@@ -220,17 +220,17 @@ Output: Model
     <img src = "images/XGBoost-Features-Importance.jpg" alt="centered image" width = 50%/>
 </center>
 
-## Top 3 Feature importance based on high R2 score of top 3 models is as follows -
+## Feature importance based on high R2 score of top 3 models is as follows -
 
 - AdaBoost - Odometer, Year, Manufacturer
 - Random Forest - Year, Cylinder, Odometer
 - XGBoot - Odometer, Model, Year
 
-## Conclusion, REcommendation, and next steps
+## Conclusion, Recommendation, and Next Steps
 
 - In this analysis we tried to understand what influences used car's selling price. 
 - Based on the R2 score - all 3 models suggest "Year" and "Odometer" are the most features that contributes most to the model.
-- The dealership should focus on these two features to maximize the profit.
+- The dealership should focus on these two features for their marketing campaign to maximize the sell and profit.
 - Older cars with low Odometer yield better value for money for the customers.
 - Effectively, focusing on these two features is a win-win situation for both - the dealership and the customers.
 
