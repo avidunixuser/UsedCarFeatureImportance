@@ -208,8 +208,27 @@ Output: Model
     <img src = "images/ScoreTable.png" alt="centered image" width = 100%/>
 </center>
 
-## Visual Representation
+## Feature Importance - 1) AdaBoost 2) RandomForest 3) XGBoost
 
 <center>
-    <img src = "images/Overall-Performance.jpg" alt="centered image" width = 100%/>
+    <img src = "images/Adaboost-Features-Importance2.jpg" alt="centered image" width = 100%/>
 </center>
+<center>
+    <img src = "images/Random-Forest-Variables-Importances.jpg" alt="centered image" width = 100%/>
+</center>
+<center>
+    <img src = "images/XGBoost-Features-Importance.jpg" alt="centered image" width = 100%/>
+</center>
+
+## Top 3 Feature importance based on high R2 score of top 3 models is as follows -
+
+- AdaBoost - Odometer, Year, Manufacturer
+- Random Forest - Year, Cylinder, Odometer
+- XGBoot - Odometer, Model, Year
+
+## Conclusion and next steps
+
+- In this analysis we tried to understand what influences used car's selling price. 
+- Based on the R2 score - all 3 models suggested "Year" and "Odometer" are the 2 features contributes most to the model.
+
+
